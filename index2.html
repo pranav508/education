@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Education Portal</title>
+     <!-- Font Awesome Icons -->
+     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <style>
+        /* General page styles */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f3f4f6;
+            color: #333;
+        }
+
+        /* Full page layout */
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Navbar styles */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: #fff;
+            border-bottom: 2px solid #4CAF50;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .navbar .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #4CAF50;
+        }
+
+        .navbar ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        .navbar ul li {
+            margin: 0 15px;
+        }
+
+        .navbar ul li a {
+            color: #333;
+            text-decoration: none;
+            font-size: 1rem;
+            transition: color 0.3s;
+        }
+
+        .navbar ul li a:hover {
+            color: #4CAF50;
+        }
+
+        .navbar .login-btn {
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 5px 8px;
+            border: none;
+            border-radius: 5px;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .navbar .login-btn:hover {
+            background-color: #45a049;
+        }
+
+        /* Header section */
+        .header {
+            text-align: center;
+            padding: 50px 20px;
+            background-color: #4CAF50;
+            color: #fff;
+        }
+
+        .header h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            font-size: 1.2rem;
+        }
+
+        /* Contact form section */
+        .form-section {
+            display: flex;
+            justify-content: space-between;
+            margin: 30px auto;
+            background: #fff;
+            color: #333;
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .form-section form {
+            flex: 1;
+            margin-right: 20px;
+        }
+
+        .form-section h2 {
+            margin-bottom: 20px;
+            color: #4CAF50;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        input,
+        textarea {
+            width: 100%;
+            padding: 10px;
+            font-size: 1rem;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-sizing: border-box;
+        }
+
+        button {
+            width: 100%;
+            padding: 12px;
+            font-size: 1.2rem;
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            text-transform: uppercase;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        /* Contact details */
+        .contact-info {
+            flex: 1;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-radius: 10px;
+        }
+
+        .contact-info h2 {
+            color: #4CAF50;
+        }
+
+        .contact-info p {
+            margin: 10px 0;
+        }
+
+        .contact-info .icon {
+            margin-right: 10px;
+        }
+
+        /* Social icons */
+        .social-icons {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .social-icons a {
+            margin: 0 10px;
+            color: #4CAF50;
+            font-size: 2rem;
+            transition: transform 0.3s;
+        }
+
+        .social-icons a:hover {
+            transform: scale(1.2);
+        }
+
+        /* Responsive design */
+        @media (max-width: 768px) {
+            .form-section {
+                flex-direction: column;
+            }
+
+            .form-section form {
+                margin-right: 0;
+                margin-bottom: 20px;
+            }
+
+            .contact-info {
+                padding: 10px;
+            }
+
+            .navbar ul {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .navbar ul li {
+                margin: 5px 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar mb-5"style="height:50px;">
+        <a class="logo navbar-brand text-success fw-bold" href="./index.html">XYLEM Learning App</a>
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="#">Courses</a></li>
+            <li><a href="./about.html">About Us</a></li>
+            <li><a href="./index2.html">Contact</a></li>
+            <li> <button class="login-btn">Login</button></li>
+        </ul>
+       
+    </nav>
+
+    <div class="container">
+        <!-- Header Section -->
+        <div class="header">
+            <h1>Contact Us</h1>
+            <p>Have questions? Reach out to us and we'll be happy to assist you!</p>
+        </div>
+
+        <!-- Contact Form and Details -->
+        <div class="form-section">
+            <!-- Contact Form -->
+            <form action="#" method="post">
+                <h2>Send Us a Message</h2>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject" placeholder="Enter the subject of your message">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+
+            <!-- Contact Information -->
+            <div class="contact-info">
+                <h2>Contact Information</h2>
+                <p><i class="icon fas fa-phone"></i>Phone: +91 8590185083</p>
+                <p><i class="icon fas fa-envelope"></i>Email: support@educationportal.com</p>
+                <p><i class="icon fas fa-map-marker-alt"></i>Address: 123 Learning Lane, Knowledge City, EduState</p>
+            </div>
+        </div>
+
+        <!-- Social Media Links -->
+        <div class="social-icons">
+            <a href="#" title="Facebook"><i class="fab fa-facebook"></i></a>
+            <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </div>
+
+   
+</body>
+
+</html>
